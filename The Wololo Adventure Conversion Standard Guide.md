@@ -20,7 +20,7 @@ As with all inter-system conversions, this should not be considered a guide for 
 A secondary, perhaps more ambitious aim is to set a standard for adventure conversions, helping GMs contribute, share and use standardised documents to expand the range of available adventures for Pathfinder, and allowing new GMs to download these document packages as integrative tools to run adventures from First Edition.
 ________________
 
-##Standards and References
+## Standards and References
 
 Most of this guide is written with the assumption that it will be used for conversions of Paizo’s Adventure Paths. It also assumes that players who write or use the conversions own the Adventure Path being converted, and is not intended to help build full substitute products. While the content of a conversion might include spoilers, names and other information, this should not be enough to play the adventure entirely without the full book. Supporting Paizo by purchasing their adventures is the only way to get more of them.
 That said, some Pathfinder First Edition concepts will be referenced, such as Challenge Rating (CR), and GMs might be required at times to be able to examine and reference First Edition statblocks (which can be found on [Archive of Nethys](https://www.aonprd.com/) as free resources) and require if not familiarity at least some level of understanding of the old system.
@@ -66,9 +66,9 @@ _**8th**_ | 34
 _**9th**_ | 36
 _**10th**_ | 39
 
-
 Finally, this guide uses the Catacombs of Wrath dungeon as an example of conversion, and therefore includes minor spoilers from Rise of the Runelords. They are not censored.
 ________________
+
 ## Setup, Deconstruction, and Timing
 
 The first thing we need to begin writing an adventure conversion is a reference point. For most conversions, this reference point is going to be the character’s level, and it will determine the pace of wealth distribution, ease of combat, challenge of skill DCs and more.
@@ -129,11 +129,13 @@ You should not feel too concerned with calculating the value of NPC weaponry. As
 
 A final note on references: you should note at the end of your document what source the items were taken from. If more than one source is listed, specify it in each item’s entry so the GMs can more easily find them. In this example, all are from the Core Rulebook.
 ________________
+
 ## Combat
 
 When converting combat encounters, we won’t need a level reference. This is because the level of a challenge is independent from the level of the players.
 
 ### Challenge and Levels
+
 For most Pathfinder First Edition adventures, the level of enemies (known as Challenge Rating, or CR) and encounter difficulty follows similar assumptions as Pathfinder’s creature level. When converting, it is usually sufficient to simply assume that CR = Lv, and work from that assumption. Creatures of CR ¼ or ⅓ should translate as Lv-1, and CR ½ can be translated as Lv0.
 There are exceptions - sometimes a creature in an Adventure Path is so weak that it cannot pose a threat to a Pathfinder character if directly translated, and other times the level is artificially higher than the creature’s actual threat capacity (most commonly because of odd class combinations). In these cases, the GM will have to exercise some of the aforementioned system mastery and make a judgment call. Is the monster there purely as fodder, for flavouring purpose? Then it can remain a meaningless weakling. Is it meant to swarm and damage the players? It might be better represented as a group of creatures sharing a single, higher level statblock, similarly to a swarm or troop. If the level is off, is it because the intended threat was higher, or is it meant to be weak? Adjustments may be required, and some degree of understanding is necessary.
 In other occasions, terrain and other elements might be part of the challenge itself. For example, a group of 5x CR4 bandits (hobgoblin archers) and 2x CR5 dire lions (double-elite lion) might seem like an easy encounter for a group of lv8 characters, but the use of cover, distance, and stealth can bring them easily up to par.
@@ -178,7 +180,7 @@ Note that some named NPCs might still not be worth the extra attention and be co
 Finally, like in the Loot document, references can help GMs run the conversion more easily: list all relevant source books and abbreviations near the end, and page number in each entry. The example uses monster from Pathfinder’s Bestiary 1 (PB1) and custom NPCs. Listing level also helps GM determine identification DCs.
 _______
 
-## Traps and hazards
+## Traps and Hazards
 
 Traps, as of now, have no guidelines in the core books, and only a handful of examples. Paizo released a [Hazard Creation guide](http://theforgottentruth.info/HazardMaking.html), which I imagine will be ported into the GMG within the year. While hazard conversion will feel very much like full creation, you’ll only normally need Stealth/Thievery DCs, saves or attack value, and damage for most simple hazards. Some classic types of simple traps are broken down below:
 
@@ -221,7 +223,6 @@ Str -1, Dex +5, Con +1, Int +3, Wis +2, Cha +3<br/>
 **Abyssal Healing** (concentrate, divine, healing, necromancy) Frequency once per round; Effect Erylium restores 2d6 hp to herself.<br/>
 **Change Shape** (concentrate, divine, polymorph, transmutation) as Quasit<br/>
 **Quasit Venom** (poison) as Quasit, but DC19<br/>
-
 _____
 
 If using the SRD [monster creation rules](http://theforgottentruth.info/CreatureMaking.html), we see Erylium has Moderate Perception, one High and several Moderate skills, almost Extreme AC but very Low HP, a High/Moderate/Low save line, Moderate strikes with Low damage, High spells, and her regular abilities.
@@ -237,11 +238,11 @@ A Subsystem file is usually something I do at the start, detailing any particula
 This is not going to be a chapter on how to convert specific systems, because they are too varied. It’s going to be a general discussion on how to convert a system in a way that gives you something usable. Unfortunately, in First Edition it’s hard to figure out expected outcomes, due to the high variability of character statistics (at the same level, you might have three characters having a -1, +8 and +32, all facing a DC17). This means that as a GM, you have the full weight of arbitrating outcome difficulty. This can vary depending not only on the adventure, but on how your own group handles difficulty and challenge. If they want to face harsh odds and obstacles, you might harshen the checks, while if they prefer a more laid back approach, you can lower them. In most cases, however, setting a challenge level can be as easy as using the NPC’s given level. In others, there might not be an NPC of reference, making your job a little harder. This variability is also why this guide does not provide a conversion format for skill DCs.
 Fortunately, once we have a moderately appropriate target in mind, the core system of Pathfinder gives us a very simple system to handle resolutions: proficiency vs challenge.
 
-### Single-check resolutions:
+### Single-check Resolutions
 
 Whenever you are looking at building a subsystem and are faced with a check to resolve an issue, consider the idea of using some sort of character or NPC check against a standard DC of variable level based on the challenge. For example, a kingdom building system could see one of your vassal, perhaps the kingdom’s Treasurer, try to solve a financial matter of taxation. Your Kingdom’s Financial modifier determines the check will be done at an Expert level, and your treasurer is Lv6 with +2 Int, so your modifier is +12. If this is a lv4 challenge, the DC is 19. Alternatively, the Financial modifier might provide the level, and the NPC the ranking. If this is to be solved by a PC, he might have his own rankings, derived from in-game events or achievements, and just use his level and modifiers. It’s an extremely simple solution, but works in most cases, and can easily be your base over which to build.
 
-### Multiple-check resolutions:
+### Multiple-check Resolutions
 
 What if instead you wanted to have a multiple-check resolution? Say, the players need to all stealth around a guard - that requires one check from each and normally fails if even one raises the alarm. You want a certain chance of success (say, 80%), but you can’t just set the DC to easy and let everyone roll. An 80% collective success on 4 checks requires a 95% individual success chance (because 0.95 x 0.95 x 0.95 x 0.95 = 0.81)
 What you’ll need to set a multiple check resolution is, first of all, your final percentage of success (S) in decimal form (like 0.75) and the number of checks (N). The average chance of success required from each check (C) is given by the formula here:
@@ -262,7 +263,7 @@ It’s also important to note that, because of the math involved, multiple-check
 
 Alternatively, it’s possible that we’ll need several independent multiple-check challenges, each contributing to a total of successes. There are millions of possible scenarios, and overthinking is going to make things much harder than they are - try to overthink only a little bit so that players don’t get immediately screwed over. No pressure.
 
-### Financial additions:
+### Financial Additions
 
 Some subsystems involve extraordinary expenses, and assume the PCs either invest part of their finances or receive additional wealth to make up for this. The best way to represent this is to relate it to the portion of character wealth this is meant to cost, but due to the different way the economies scale, this is not as easy to do in practice.
 For converting costs, I use this simple formula, which is fairly accurate up to level 15:
@@ -282,195 +283,54 @@ ________________
 
 When adapting a specific item, the simplest way is to once again rebuild it from scratch. Doing so is normally fairly feasible in the new system, as you don’t have to worry excessively about pricing formulae or crafting requirements. Items are priced based on their overall power and can be easily derived from existing items. However, guidelines for appropriate power levels exist and apply to most items. While spellcasting items like wands, staves, or many of the items that reproduce a spell have plenty of examples in the book, the most difficult ones to translate are often skill bonuses items and weapons/armours.
 
-
 A first note: if you want to build an item that combines the functions of two items… Just treat it as two items. A sword whose scabbard works like a magic staff is, from a mechanical standpoint, a sword plus a staff. Count the parts separately for loot and sales, but treat them as a single item when handing it to your players.
-
 
 As for the appropriate levels of magic item bonuses, follow this general guide:
 
-
-Level
-	armour
-	resilient
-	weapon
-	striking
-	skills
-	2
-	
-
-	
-
-	+1
-	
-
-	
-
-	3
-	
-
-	
-
-	
-
-	
-
-	+1
-	4
-	
-
-	
-
-	
-
-	Striking
-	
-
-	5
-	+1
-	
-
-	
-
-	
-
-	
-
-	8
-	
-
-	Resilient
-	
-
-	
-
-	
-
-	9
-	
-
-	
-
-	
-
-	
-
-	+2
-	10
-	
-
-	
-
-	+2
-	
-
-	
-
-	11
-	+2
-	
-
-	
-
-	
-
-	
-
-	12
-	
-
-	
-
-	
-
-	Greater 
-	
-
-	14
-	
-
-	Greater 
-	
-
-	
-
-	
-
-	16
-	
-
-	
-
-	+3
-	
-
-	
-
-	17
-	
-
-	
-
-	
-
-	
-
-	+3
-	18
-	+3
-	
-
-	
-
-	
-
-	
-
-	19
-	
-
-	
-
-	
-
-	Major
-	
-
-	20
-	
-
-	Major
-	
-
-	
-
-	
-
-	
+Level | armour | resilient | weapon | striking | skills
+------|--------|-----------|-------|----------|-------
+2 | :heavy_check_mark: | :heavy_check_mark: | +1 | - |
+3 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | +1
+4 | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark: | Striking
+5 | +1 ||||
+8 | :heavy_check_mark: | Resilient
+9 |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|+2
+10 |:heavy_check_mark:|:heavy_check_mark:|+2
+11 |+2
+12 |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Greater
+14 |:heavy_check_mark:|Greater
+16 |:heavy_check_mark:|:heavy_check_mark:|+3
+17 |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|+3
+18 |+3
+19 |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Major
+20 |:heavy_check_mark:|Major
 
 It’s important to note that scaling items should be appropriate not to the level at which they’re gained, but to the level immediately preceding an upgrade. In other words, if your magic sword gains a new power at level 11 and has a new upgrade planned for level 15, it should gain Greater Striking, or it will fall behind. This is normally fine as it makes the item feel more epic, but it does impact character wealth. Adjustments might be needed, if the power is not accounted for by the adventure difficulty.
 ________________
-Resources and Downloads
 
+## Resources and Downloads
 
-As a finishing point to this guide, I am leaving a space for premade conversions. If some of you have decided to follow my tips and write your own accessory material to convert Adventure Paths, all you need to do is drop a download link in the Guide’s feedback thread, and I’ll add it in here for everyone to enjoy. While I do plan to leave my own as well, I doubt I’ll be able to cover them all, so feel free to contribute. Please ensure you follow the Community Use Policy below.
+As a finishing point to this guide, I am leaving a space for premade conversions. If some of you have decided to follow my tips and write your own accessory material to convert Adventure Paths, all you need to do is drop a download link in the Guide’s [feedback thread](https://paizo.com/threads/rzs42rtc?The-Wololo-Adventure-Conversion-Standard-Guide), and I’ll add it in here for everyone to enjoy. While I do plan to leave my own as well, I doubt I’ll be able to cover them all, so feel free to contribute. Please ensure you follow the Community Use Policy below.<br/>
 I will also add a general template you can download to get started, with some basic instructions embedded in the files. Have fun and help others have fun!
 
-
-General Wololo Template v1.0
+[General Wololo Template v1.0](https://mega.nz/#F!j0kSwIpL!98mdBQwMnTrk8lgJGlopfA)
 This link includes a zip folder containing a basic setup to begin writing your own guide, including brief summary of instructions and formatting, the Community Use Policy, and the Open Game License. You will need to submit your project to Paizo to use registered names.
 
 
-Tomb of the Iron Medusa by Archvillain Ediwir on 15/11/19
+[Tomb of the Iron Medusa by Archvillain Ediwir](https://mega.nz/#!vx0Wwaob!bqf5rVjlKdqL_d8sPuy30_ITggy-vpuZqBkwgWJsTyY) on 15/11/19
 A level 14 module which sends the PCs in the ancient tomb of a near-extinct Taldean noble family in an effort to find the evidence that will finally clear their name.
 ________________
 
+## Updates / versions (1.2)
 
-Updates / versions (1.2)
-1.1 Included monster creation rules and monster creation tool.
+1.1 Included monster creation rules and monster creation tool.<br/>
 1.2 formatting advice for combat / loot documents.
 ________________
-Legal information
-Community Use Policy
+
+## Legal information
+
+### Community Use Policy
+
 This guide uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This guide is not published, endorsed, or specifically approved by Paizo Inc. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Inc. and Paizo products, please visit paizo.com.
 
 
@@ -490,8 +350,8 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected. 
 13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License. 
 14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. 
-15. COPYRIGHT NOTICE
+15. COPYRIGHT NOTICE<br/>
 Open Game License v 1.0a © 2000, Wizards of the Coast, Inc.
-System Reference Document © 2000, Wizards of the Coast, Inc.; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
-Pathfinder Core Rulebook (Second Edition) © 2019, Paizo Inc.; Designers: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter. 
+System Reference Document © 2000, Wizards of the Coast, Inc.; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.<br/>
+Pathfinder Core Rulebook (Second Edition) © 2019, Paizo Inc.; Designers: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter. <br/>
 Pathfinder Gamemastery Guide Monster and Hazard Creation © 2019, Paizo Inc.; Authors: Logan Bonner and Mark Seifter.
